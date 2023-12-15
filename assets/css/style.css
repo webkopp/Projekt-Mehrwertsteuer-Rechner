@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/giammarco-boscaro-zeH-ljawHtg-unsplash-1920.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat";
+    text-align: center;
+    color: rgba(135, 205, 235, 0.7);
+    text-shadow: 0.3rem 0 0.3rem rgba(0, 0, 0,0.7);
+}
+
+.taxMaschine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    color: black;
+    background: content-box radial-gradient(rgba(255, 255, 255, 0.9), rgba(135, 205, 235, 0.7));
+    background-blend-mode: multiply;
+    border: 1rem solid rgba(135, 205, 235, 0.7);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.window {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    padding: 1rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checki {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: 0.3rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=text] {
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+input[type=submit] {
+    padding: 0.3rem 1rem;
+    margin-left: 1rem;
+    font-family: "Montserrat";
+    color: white;
+    background-color: black;
+    border-style: none;
+    border-radius: 0.3rem;
+}
+
+#output {
+    color: black;
+}
