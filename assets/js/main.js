@@ -13,14 +13,9 @@ let nancy = () => {
     let out1 = document.querySelector("#outi1")
     let out2 = document.querySelector("#outi2")
 
-    const number1 = 19
-    const number2 = 7
-
-    (number1.toFixed(2));
-
     const taxo = Math.toFixed.()
-    let val1 = Math.toFixed(number1(/19)) - netto
-    let val2 = Math.toFixed(number2(/7)) - netto
+    let val1 = Math.toFixed(price * 0.19())
+    let val2 = Math.toFixed(price * 0.7())
 
     switch(true) {
         case taxNetto:
